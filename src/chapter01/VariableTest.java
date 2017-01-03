@@ -32,6 +32,20 @@ public class VariableTest {
 		System.out.println(q);
 		System.out.println(d);
 		
+		//상수
+		final int MAX_SPEED=20;
+		//max_speed=200;  //final이 붙은 변수는 이 후에 값 대입을 할 수 없다
+		
+		
+		
+		//스트링객체확인
+
+		String aa= new String("Hello");
+		System.out.println(aa);
+		
+		//String 객체를 리터럴로 사용하기
+		String str1= "Hello";  //자베에서 제공해누는 것 String 사실 기본타입아니다
+		System.out.println(str1);
 		
 	}
 
