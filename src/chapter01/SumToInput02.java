@@ -13,6 +13,11 @@ public class SumToInput02 {
 		
 		int number=Integer.parseInt(args[0]);
 		
+		//int->String 
+		int n = 10;
+		String s=""+n;
+		String s1=String.valueOf(n);
+		
 		int sum=0;
 		for(int i=1; i<=number;i++){
 			sum+=i;

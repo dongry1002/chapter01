@@ -8,6 +8,7 @@ public class NHelloWorld02 {
 
 	Scanner scanner = new Scanner( System.in );
 
+	
 	int count= scanner.nextInt();
 	
 	// Q: 아래 for문을  사용하여  “Hello World”를 입력 받은 수 만큼 출력 하세요.
